@@ -2,7 +2,8 @@
 
 <p>
   <strong>Image url:</strong>
-  <%= @photo.image_url %>
+  <%= link_to image_tag(@photo.image_url), @photo.image_url %>
+
 </p>
 <p>
   <strong>Comment:</strong>
